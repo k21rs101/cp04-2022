@@ -35,6 +35,8 @@
         width: 50%;
         margin: 0 auto;
     }
+    #remain::after{content: "秒";}
+    #time::after{content:"秒";}
     
     #mycanvas {
         color: #ffffff;
