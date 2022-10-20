@@ -176,6 +176,16 @@
             audio.src = "pin.wav";
             audio.play();
         }
+        
+        function stop() {
+            var canvas = $("#mycanvas")[0];
+            var ctx = canvas.getContext("2d");
+            var img = new Image();
+            img.src = "stop.png";
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, 300, 300);
+            };
+        }
 
         // ButtonAがクリックされた時の処理
         function btnAClick(e) {
