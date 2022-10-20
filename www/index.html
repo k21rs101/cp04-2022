@@ -176,7 +176,7 @@
             audio.src = "pin.wav";
             audio.play();
         }
-        
+
         function stop() {
             var canvas = $("#mycanvas")[0];
             var ctx = canvas.getContext("2d");
@@ -195,6 +195,7 @@
 
         // ButtonBがクリックされた時の処理
         function btnBClick(e) {
+            stop();
             active = false;
         }
 
