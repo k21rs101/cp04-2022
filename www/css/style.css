@@ -62,6 +62,8 @@
     #btnC {
         font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        background-color: blue;
+        color: rgb(247, 252, 0);
     }
     
     #minute {
